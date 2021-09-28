@@ -43,8 +43,8 @@ if __name__ == '__main__':
         last_data = get_clipboard()
 
         while True:
-            # 每隔1s读取剪切板的内容
-            time.sleep(1)
+            # 每隔60s读取剪切板的内容
+            time.sleep(60)
             # 读取剪切板内容
             now_data = get_clipboard()
             # 如果当前的内容与上一时刻的内容不一致,则写入文件
